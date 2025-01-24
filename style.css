@@ -51,6 +51,10 @@ body {
     width: 100%;
 }
 
+.nav-link:hover {
+    color: rgb(255, 129, 57);
+}
+
 .btn-navbar {
     display: inline-block;
     padding: 10px 43px;
@@ -61,15 +65,14 @@ body {
     font-size: 14px;
     font-weight: 600;
     background-color: rgb(36, 193, 255);
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-a:hover {
-    color: #2a5b94; 
+    transition: 0.2s ease;
 }
 
+.btn-navbar:hover {
+    background-color: transparent;
+    color: rgb(255, 129, 57);
+    border: 1px solid rgb(255, 129, 57);
+}
 
 .navbar-brand {
     font-size: 1.5rem;
@@ -82,9 +85,6 @@ a:hover {
     transition: color 0.3s ease-in-out;
 }
 
-.navbar-nav .nav-link:hover {
-    color: #225369;
-}
 
 /* Home Section */
 
@@ -109,6 +109,10 @@ a:hover {
 
 }
 
+.home-span {
+    color: rgb(255, 129, 57);
+}
+
 .para-home {
     font-size: 13px;
     font-weight: 500;
@@ -130,26 +134,23 @@ a:hover {
     padding: 10px 37px;
     font-size: 14px;
     font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.btn-2 {
+    border: 1px solid rgb(36, 193, 255);
+    color: rgb(36, 193, 255);
+    background-color: transparent;
+}
+
+.home-links:hover {
+    background-color: transparent;
+    color: rgb(255, 129, 57);
+    border: 1px solid rgb(255, 129, 57) !important;
 }
 
 .img-home {
     margin-right: 20px;
     width: 580;
 
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #003b5c;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-    text-align: center;
 }
