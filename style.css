@@ -331,3 +331,49 @@ body {
     background-color: #d1d1d1;
     font-size: 18px;
 }
+.contact-section {
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.heading-contact {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text-contact {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-details i {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.contact-form .form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.contact-form .btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.contact-form .btn:hover {
+    background-color: #0056b3;
+}
