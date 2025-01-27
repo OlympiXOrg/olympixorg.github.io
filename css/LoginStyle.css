@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Olympic Headline';
+    src:'fonts/OlympicHeadline-Regular.ttf' format'truetype';
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
@@ -65,7 +66,7 @@ body {
 }
 
 .btn-box button:hover {
-    background-color: #e65c00;
+    background-color: #0615bf;
 }
 
 .signup-link {
@@ -73,10 +74,10 @@ body {
     font-size: 14px;
 }
 
-.signup-link a {
-    color: #ff6600;
-    text-decoration: none;
-}
+    .signup-link a {
+        color: #1b09b8;
+        text-decoration: none;
+    }
 
 .signup-link a:hover {
     text-decoration: underline;
