@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\product",
+    "\\product\\accessories",
+    "\\product\\accessories\\beanie",
+    "\\product\\accessories\\beanie\\css",
+    "\\product\\men\\Looney Tunes Collage",
+    "\\product\\men\\Looney Tunes Hurdles",
+    "\\product\\men\\Looney Tunes Podium",
+    "\\product\\men\\Tech Polo",
+    "\\product\\men\\The Heritage Collection London"
   ],
-  "SelectedNode": "\\C:\\Users\\Alyzza\\Desktop\\olympix",
+  "SelectedNode": "\\product\\accessories\\beanie\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }

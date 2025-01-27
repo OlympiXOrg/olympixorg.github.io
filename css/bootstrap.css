@@ -37,7 +37,7 @@
 
 html {
     font-family: 'Olympic Headline';
-    src: url('fonts/OlympicHeadline-Regular.ttf') format('truetype');
+    src:'fonts/OlympicHeadline-Regular.ttf' format'truetype';
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

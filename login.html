@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Olympix</title>
     <link rel="stylesheet" href="css/LoginStyle.css">
+    <link href="https://globalfonts.pro/font/olympic-headline#google_vignette" rel="stylesheet">
     <script>
         function validateLogin(event) {
-            event.preventDefault(); 
-            
+            event.preventDefault();
+
             var email = document.getElementById('email').value;
             var password = document.getElementById('password').value;
-            
+
             var correctEmail = 'user@example.com';
             var correctPassword = '123456';
 
             if (email === correctEmail && password === correctPassword) {
-                window.location.href = 'index.html'; 
+                window.location.href = 'index.html';
             } else {
                 alert('Incorrect email or password!');
             }
