@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>The Olympic Collection x Looney Tunes Collage Typography Front & Back Graphic T-Shirt - White - Womens</title>
+    <link rel="icon" type="image/jpeg" href="assets/icon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="../../../index.html"><img src="assets/logo.png" alt="OlympiX Logo"
+                    style="width: 80px; height: auto;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../all products/index.html">All Products</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="../index.html">Men</a></li>
+                            <li><a class="dropdown-item" href="../../women/index.html">Women</a></li>
+                            <li><a class="dropdown-item" href="../../accessories/index.html">Accessories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark" type="submit">
+                        <i class="bi-cart-fill me-1"></i>
+                        Cart
+                        <span id="cart-count" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Product section-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0"
+                        src="https://images.footballfanatics.com/olympic-games/the-heritage-collection-london-1948-t-shirt_ss5_p-201355939+pv-1+u-ldz2whi16hy799txyngc+v-3dw0lifhmzvzeyhiuzwd.jpg?_hv=2&w=900" alt="..." /></div>
+                <div class="col-md-6">
+                    <div class="small mb-1">In Stock</div>
+                    <h1 class="display-5 fw-bolder">The Heritage Collection London 1948 T-Shirt</h1>
+                    <div class="fs-5 mb-5">
+                        <span>$28.00</span>
+                        <p class="lead">Pay homage to momentous Games of the past with this official Olympic Heritage t-shirt showcasing a historic Olympiad. The comfortable fit and soft material make it perfect for casual everyday wear when you sport your passion for the Olympics and their history.</p>
+                    </div>
+                    <div class="d-flex">
+                        <input class="form-control text-center me-3" id="quantity" type="num" value="1" min="1"
+                            style="max-width: 3rem" />
+                        <button id="add-to-cart" class="btn btn-outline-dark flex-shrink-0" type="button">
+                            <i class="bi-cart-fill me-1"></i>
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; shop.olympics.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        let cartCount = 0;
+
+        document.getElementById('add-to-cart').addEventListener('click', function () {
+            const quantity = parseInt(document.getElementById('quantity').value, 10);
+            cartCount += quantity;
+            document.getElementById('cart-count').textContent = cartCount;
+        });
+    </script>
+</body>
+
+</html>
