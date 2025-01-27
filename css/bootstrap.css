@@ -36,10 +36,11 @@
 }
 
 html {
-  font-family: 'Olympic Headline';
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Olympic Headline';
+    src: url('fonts/OlympicHeadline-Regular.ttf') format('truetype');
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -4084,7 +4085,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: #044ee0 #044ee0 #033dad;
 }
 
 .nav-tabs .nav-link.disabled {
