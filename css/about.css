@@ -1,5 +1,6 @@
 body {
     font-family: 'Olympic Headline', sans-serif;
+    src:'fonts/OlympicHeadline-Regular.ttf' format'truetype';
     margin: 0;
     padding: 0;
     background-color: #f7f9fc;
@@ -124,9 +125,9 @@ header p {
     border-color: #ffd700;
 }
 
-.ring.black {
-    border-color: #000000;
-}
+    .ring.black {
+        border-color: #1b09b8;
+    }
 
 .ring.green {
     border-color: #008000;
