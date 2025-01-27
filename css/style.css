@@ -1,6 +1,6 @@
 body {
  font-family: 'Olympic Headline';
- src: url('fonts/OlympicHeadline-Regular.ttf') format('truetype');
+ src:'fonts/OlympicHeadline-Regular.ttf' format'truetype';
  color: #000000;
  background-color: #ffffff;
 }
