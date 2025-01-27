@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #005bbb, #ffd700, #000000, #008000, #d21034);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 5px solid #005bbb;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 22px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.about {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2, .about h3 {
+    color: #005bbb;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.about ul li strong {
+    color: #d21034;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 260px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 5px solid #005bbb;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #ffd700;
+}
+
+.team-member h2 {
+    font-size: 22px;
+    color: #005bbb;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #555;
+}
+
+.rings {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.ring {
+    width: 50px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 50%;
+}
+
+.ring.blue {
+    border-color: #005bbb;
+}
+
+.ring.yellow {
+    border-color: #ffd700;
+}
+
+.ring.black {
+    border-color: #000000;
+}
+
+.ring.green {
+    border-color: #008000;
+}
+
+.ring.red {
+    border-color: #d21034;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    .team {
+        justify-content: center;
+    }
+
+    .team-member {
+        width: 220px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .about ul li {
+        font-size: 14px;
+    }
+}
