@@ -1,273 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olympic Art Gallery & E-Commerce</title>
-
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/4c729db828.js' crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-    <link rel="icon" href="assets/img/icon.png" type="image/png">
-    
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Olympix</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="icon" href="assets/img/icon.png" type="image/png">
 </head>
 
-<!-- Header Start -->
-
 <body>
-    <div class="header">
-        <div class="container-fluid gx-0"></div>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="assets/img/logo-white.png" alt="OlympiX Logo"
+                style="width: 100px; height: auto; margin-top: 10px;">
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <img src="product/assets/logo.png" alt="OlympiX Logo" style="width: 100px; height: auto; margin-top: 10px;">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-us">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="product/index.html">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn-navbar" href="#">Buy Now</a>
-                        </li>
-                  
-
-                    </ul>
-                </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#About"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product/index.html"> Products </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span>Wallet</span> <img src="assets/img/wallet.png" alt="" />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Sign Up</a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+              </div>
             </div>
+          </div>
         </nav>
-
-        <div class="container" id="home">
-            <div class="content-home">
-                <div class="row content-home2">
-                    <div class="col-lg-7 col-md-5">
-
-                        <div class="box-container">
-                            <img src="assets/img/homeshirt.png" class="img-home" alt="banner img">
-                        </div>
-
-                    </div>
-                    <div class="col-lg-5 col-md-7">
-                        <div class="box-container2">
-                            <h1 class="home-heading"> Discover high-quality apparel designed for <span class="home-span">performance and style.</span></h1>
-                            <p class="para-home">
-                               Click below to shop now!
-                            </p>
-                            <div class="btn-home">
-                                <a href="#" class="home-links">Buy Now</a>
-                                <a href="#" class="home-links btn-2">Explore</a>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section position-relative" id="Home">
+      <div class="container">
+        <div class="box">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="detail-box">
+                <div>
+                  <h1>
+                    Discover high-quality
+                    <br>
+                    apparel designed for
+                  </h1>
+                  <h2>
+                    performance and style.
+                  </h2>
+                  <div class="btn-home">
+                    <a class="home-links" href="#">Buy Now</a>
+                    <a class="home-links btn-2" href="#">Explore</a>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Header End -->
-
-    <!-- About Us Start -->
-
-    <div class="container" id="about-us">
-        <div class="about-us-container">
-            <div class="about-us">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="content-about">
-                            <h3 class="heading-about">About Us</h3>
-                            <p class="para-about">"We are dedicated to providing top-qaulity sporstwear and accesories that empower athletes and enthusiasts to achieve their best. Our mission is to combine innovation, comfort, and design to meet the needs of active individuals worlwide."</p>
-                    
-                            <a href="#" class="link-about"> <span class="span-about"></span>Read More
-                                <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="assets/img/aboutmerch.jpg" class="img-about" alt="img">
-                    </div>
-                </div>
+            <div class="col-md-5">
+              <div class="img-box">
+                <img src="assets/img/homeshirt.png" alt="" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-    <!-- About Us End -->
-
-    <section class="product-category" id="products">
-        <h2 class="heading-product">Product Category</h2>
-        <div class="container-fluid">
-            <!-- Slider Carousel Bootstrap -->
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6"> 
-
-                                    <div class="card card-product">
-                                        <img src="assets/img/shoes.jpg" class="card-img-top image-card" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">SHOES</h5>
-                                            <p class="card-text"> Step into comfort and durability with our range of sports shoes design for maximum perfomance. .</p>
-                                            <a href="#" class="btn-product-ctg">Read More<span class="icon-arrow"><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-
-                                    <div class="card card-product">
-                                        <img src="assets/img/shoes2.jpg" class="card-img-top image-card" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">JERSEYS</h5>
-                                            <p class="card-text">Explore premium jerseys crafted for both athletes and fans, ensuring style and functionality on and off the field.</p>
-                                            <a href="#" class="btn-product-ctg">Read More<span class="icon-arrow"><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-
-                                    <div class="card card-product">
-                                        <img src="assets/img/shoes3.jpg" class="card-img-top image-card" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">ACCESSORIES </h5>
-                                            <p class="card-text">Enhance your game with our versatile collection of sports accesories tailored for your active lifetstyle.</p>
-                                            <a href="#" class="btn-product-ctg">Read More<span class="icon-arrow"><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6">
-
-                                    <div class="card card-product">
-                                        <img src="assets/img/shoes.jpg" class="card-img-top image-card" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">SHOES</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                elit.</p>
-                                            <a href="#" class="btn-product-ctg">Read More<span class="icon-arrow"><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-
-                                    <div class="card card-product">
-                                        <img src="assets/img/shoes2.jpg" class="card-img-top image-card" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">SHOES</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                elit.</p>
-                                            <a href="#" class="btn-product-ctg">Read More<span class="icon-arrow"><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-
-                                    <div class="card card-product">
-                                        <img src="assets/img/shoes3.jpg" class="card-img-top image-card" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">SHOES</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                elit.</p>
-                                            <a href="#" class="btn-product-ctg">Read More<span class="icon-arrow"><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
+      </div>
     </section>
+    <!-- end slider section -->
+  </div>
 
-    <div class="container" id="contact">
-        <div class="contact-section py-5">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="heading-contact">Get in Touch</h2>
-                    <p class="text-contact">We'd love to hear from you! Fill out the form below or reach us directly through the details provided.</p>
-                    <div class="contact-details">
-                        <p><i class="fa-solid fa-envelope me-2"></i> contact@olympix.com</p>
-                        <p><i class="fa-solid fa-phone me-2"></i> +123 456 7890</p>
-                        <p><i class="fa-solid fa-location-dot me-2"></i> 123 Olympic Street, Art City</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <form class="contact-form">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Your Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Your Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Your Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
-                    </form>
-                </div>
-            </div>
+  <!-- about section -->
+
+  <section class="about_section layout_padding-bottom" id="About">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          About OlympiX
+        </h2>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/img/about-img.png" alt="">
         </div>
+        <div class="detail-box">
+          <p>
+            "We are dedicated to providing top-qaulity sporstwear and accesories that empower athletes and enthusiasts
+            to achieve their best. Our mission is to combine innovation, comfort, and design to meet the needs of active
+            individuals worlwide."
+          </p>
+          <div class="btn-box">
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- end about section -->
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script> 
+  <!-- product section -->
+  <section class="how_section layout_padding">
+    <div class="heading_container">
+      <h2>
+        Product Category
+      </h2>
+    </div>
+    <div class="how_container">
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/img/shoes.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Shoes
+          </h5>
+          <p>
+            Step into comfort and durability with our range of sports shoes design for maximum perfomance.
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/img/Jersey.png" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Jerseys
+          </h5>
+          <p>
+            Explore premium jerseys crafted for both athletes and fans, ensuring style and functionality on and off the field.
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/img/Accessories.png" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Accesories
+          </h5>
+          <p>
+            Enhance your game with our versatile collection of sports accesories tailored for your active lifetstyle.
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/img/Plush.jpeg" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Plushies
+          </h5>
+          <p>
+            Celebrate the Spirit of the Games with Our Olympic Plushies - Soft, Cuddly, and Perfect for Every Champion! 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="btn-box">
+      <a href="">
+        Read More
+      </a>
+    </div>
+  </section>
+  <!-- end product section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+              <a href="index.html">
+                <span>
+                  <img src="assets/img/logo-white.png" alt="OlympiX Logo"
+                    style="width: 100px; height: auto; margin-bottom: 25px;">
+                </span>
+              </a>
+            <h5>
+              Contact Us
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="assets/img/location.png" width="18px" alt="" />
+              </div>
+              <p>
+                500 St. State Country
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="assets/img/phone.png" width="18px" alt="" />
+              </div>
+              <p>
+                +01 1234567890
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="assets/img/envelope.png" width="18px" alt="" />
+              </div>
+              <p>
+                info@mysite.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Customer Service
+            </h5>
+            <p>
+              Contact Us > /Shipping >
+              <br>
+              Returns > /Payment & Warranty >
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email" />
+              <button>
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p> 
+      © 2025 By OlympiX 
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
 </body>
 
 </html>
