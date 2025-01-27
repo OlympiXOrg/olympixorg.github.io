@@ -128,17 +128,20 @@ a:focus {
 }
 
 .user_option {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
-.user_option a {
-  color: #ffffff;
-  margin: 10px 30px;
+.user_option .form-control {
+  width: 200px;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.user_option .btn {
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 5px 15px;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -289,7 +292,7 @@ a:focus {
   border: 4px solid #ffffff;
 }
 
-.home-links {
+.btn-home .home-links {
   display: inline-block;
   text-decoration: none;
   color: black;
@@ -304,16 +307,15 @@ a:focus {
   transition: 0.2s ease;
 }
 
-.btn-2 {
+.btn-home .btn-2 {
   border: 1px solid rgb(36, 193, 255);
   color: rgb(36, 193, 255);
   background-color: transparent;
 }
-
-.home-links:hover {
+.btn-home .home-links:hover {
   background-color: transparent;
-  color: rgb(255, 129, 57);
-  border: 1px solid rgb(255, 129, 57) !important;
+  color: rgb(36, 193, 255);
+  border: 1px solid rgb(0, 0, 0) !important;
 }
 
 .btn-navbar,
