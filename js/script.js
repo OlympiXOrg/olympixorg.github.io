@@ -53,4 +53,28 @@ document.addEventListener('DOMContentLoaded', () => {
             this.reset();
         });
     }
+  document.getElementById('searchForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent the default form submission
+
+    const query = document.getElementById('searchInput').value.trim().toLowerCase();
+    
+    // If search term is empty, return early
+    if (!query) {
+      alert('Please enter a search term.');
+      return;
+    }
+
+    // Find all the elements you want to search (e.g., paragraphs, divs with content)
+    const contentItems = document.querySelectorAll('.searchable-content');
+    
+    // Loop through each item and hide/show based on the search term
+    contentItems.forEach(item => {
+      if (item.textContent.toLowerCase().includes(query)) {
+        item.style.display = ''; // Show the content
+      } else {
+        item.style.display = 'none'; // Hide the content
+      }
+    });
+  });
+
 });
